@@ -37,14 +37,14 @@ export default function Home() {
                     title: "Pixfocus",
                     description: "A pixel art gamified focus timer app",
                     tags: ["React Native", "Expo", "Tailwind", "Appwrite"],
-                    url: "https://github.com/yourusername/pixfocus", // Add your actual URL
+                    url: "https://github.com/Flamebamboo/PixFocus", // Add your actual URL
                   },
                   {
                     title: "Lost Howls",
                     description:
                       "A 2D platformer featuring a lost dog as a protagonist",
                     tags: ["GdScript", "Godot"],
-                    url: "https://github.com/yourusername/lost-howls", // Add your actual URL
+                    url: "https://github.com/Flamebamboo/LostHowls", // Add your actual URL
                   },
                 ].map((project, index) => (
                   <a
