@@ -17,7 +17,7 @@ export default function Home() {
         <div className="p-8 mt-24">
           <Card>
             <section className="space-y-6 mb-16">
-              <h2 className="text-4xl font-bold">Hey, I'm Flamebamboo</h2>
+              <h2 className="text-4xl font-bold">Hey, I&apos;m Flamebamboo</h2>
 
               <div className="flex items-center gap-4">
                 <FaLocationPin className="text-xl" />
