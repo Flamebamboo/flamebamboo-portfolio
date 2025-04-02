@@ -24,9 +24,7 @@ export default function Home() {
                 <h3 className="text-2xl font-mono">Malaysia</h3>
               </div>
 
-              <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl">
-                full-stack developer, content creator & dream tech entrepenuer.
-              </p>
+              <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl">full-stack developer, content creator & dream tech entrepenuer.</p>
             </section>
 
             <section>
@@ -37,14 +35,13 @@ export default function Home() {
                     title: "Pixfocus",
                     description: "A pixel art gamified focus timer app",
                     tags: ["React Native", "Expo", "Tailwind", "Appwrite"],
-                    url: "https://github.com/Flamebamboo/PixFocus", // Add your actual URL
+                    url: "https://pixfocus.me", // Add your actual URL
                   },
                   {
                     title: "Lost Howls",
-                    description:
-                      "A 2D platformer featuring a lost dog as a protagonist",
+                    description: "A 2D platformer featuring a lost dog as a protagonist",
                     tags: ["GdScript", "Godot"],
-                    url: "https://github.com/Flamebamboo/LostHowls", // Add your actual URL
+                    url: "https://flamebamboo.itch.io/losthowls", // Add your actual URL
                   },
                 ].map((project, index) => (
                   <a
@@ -58,15 +55,10 @@ export default function Home() {
                              cursor-pointer"
                   >
                     <h4 className="font-bold mb-2">{project.title}</h4>
-                    <p className="text-gray-600 dark:text-gray-400 mb-4">
-                      {project.description}
-                    </p>
+                    <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
                     <div className="flex flex-wrap gap-2">
                       {project.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="text-gray-500 dark:text-gray-400"
-                        >
+                        <span key={tag} className="text-gray-500 dark:text-gray-400">
                           #{tag}
                         </span>
                       ))}
