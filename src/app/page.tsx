@@ -2,7 +2,6 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { FaLocationPin } from "react-icons/fa6";
 import { GridBackgroundDemo } from "@/components/GridBackground";
 import { Card } from "@/components/Card";
-import { IconBase } from "react-icons";
 
 export default function Home() {
   return (
@@ -132,4 +131,5 @@ export default function Home() {
   
   
 */
+}
 }
