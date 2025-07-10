@@ -124,8 +124,8 @@ export default function Home() {
 {
   /* things to add
     - make the site more responsive done
-   - cursor icon 
-   - skills section (maybe) 
+   - cursor icon done
+   - skills section (maybe) show umm all the languages and frameworks I know?
    - background music and mute icons bottom right corner that is fixed
    - Bamboo silhouette
 

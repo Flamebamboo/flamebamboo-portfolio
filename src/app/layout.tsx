@@ -19,7 +19,13 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap" rel="stylesheet" />
       </head>
-      <body className="antialiased bg-white dark:bg-gray-950 text-black dark:text-white" style={{ fontFamily: "Playwrite DE Grund, cursive" }}>
+      <body
+        className="antialiased bg-white dark:bg-gray-950 text-black dark:text-white"
+        style={{
+          fontFamily: "Playwrite DE Grund, cursive",
+          cursor: "url('/Cursor.svg') 4 4, pointer",
+        }}
+      >
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
