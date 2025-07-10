@@ -1,8 +1,11 @@
+"use client";
+
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { FaLocationPin } from "react-icons/fa6";
 import { GridBackgroundDemo } from "@/components/GridBackground";
 import { Card } from "@/components/Card";
 import { MusicPlayer } from "./component/MusicPlayer";
+import { ShareButton } from "./component/ShareButton";
 
 export default function Home() {
   return (
@@ -12,7 +15,10 @@ export default function Home() {
       <div className="absolute inset-0 z-10">
         <nav className="px-4 sm:px-6 md:px-8 py-4 md:py-8 w-full max-w-7xl mx-auto flex justify-between items-center">
           <h1 className="font-mono text-lg sm:text-xl md:text-2xl">flamebamboo.xyz</h1>
-          <ThemeToggle />
+          <div className="flex items-center gap-3">
+            <ThemeToggle />
+            <ShareButton />
+          </div>
         </nav>
 
         <div className="px-2 sm:px-4 md:px-8 py-4 md:py-8 mt-0 md:mt-12 w-full max-w-5xl mx-auto">
