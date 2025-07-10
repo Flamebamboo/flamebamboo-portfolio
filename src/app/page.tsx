@@ -2,6 +2,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { FaLocationPin } from "react-icons/fa6";
 import { GridBackgroundDemo } from "@/components/GridBackground";
 import { Card } from "@/components/Card";
+import { IconBase } from "react-icons";
 
 export default function Home() {
   return (
@@ -9,23 +10,23 @@ export default function Home() {
       <GridBackgroundDemo />
 
       <div className="absolute inset-0 z-10">
-        <nav className="p-8 max-w-4xl mx-auto flex justify-between items-center">
-          <h1 className="font-mono text-xl">flamebamboo.xyz</h1>
+        <nav className="px-4 sm:px-6 md:px-8 py-4 md:py-8 w-full max-w-7xl mx-auto flex justify-between items-center">
+          <h1 className="font-mono text-lg sm:text-xl md:text-2xl">flamebamboo.xyz</h1>
           <ThemeToggle />
         </nav>
 
-        <div className="p-8 mt-24">
+        <div className="px-2 sm:px-4 md:px-8 py-4 md:py-8 mt-0 md:mt-12 w-full max-w-5xl mx-auto">
           <Card>
-            <section className="space-y-6 mb-16">
-              <div className="flex items-center gap-4 bg-[#B1AB86] dark:bg-gray-800 w-max p-2 rounded-2xl shadow-md">
-                <FaLocationPin className="text-xl text-[#FEFAE0] dark:text-white" />
-                <h3 className="text-xl text-[#FEFAE0] dark:text-white font-light">Malaysia</h3>
+            <section className="space-y-6 mb-10 md:mb-16">
+              <div className="flex items-center gap-2 sm:gap-4 bg-[#B1AB86] dark:bg-gray-800 w-max p-2 md:p-3 rounded-2xl shadow-md">
+                <FaLocationPin className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white" />
+                <h3 className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white font-light">Malaysia</h3>
               </div>
 
-              <h2 className="text-4xl font-bold font-Collager">Hey, I&apos;m Flamebamboo</h2>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-Collager">Hey, I&apos;m Flamebamboo</h2>
 
-              <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl">full-stack developer, content creator & dream tech entrepenuer.</p>
-              <div className="flex items-center gap-4">
+              <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-2xl">full-stack developer, content creator & dream tech entrepenuer.</p>
+              <div className="flex flex-wrap items-center gap-3 sm:gap-4">
                 {/* Github button */}
                 <a
                   href="https://github.com/flamebamboo"
@@ -74,8 +75,8 @@ export default function Home() {
             </section>
 
             <section>
-              <h3 className="text-2xl font-bold mb-6">Featured Public Projects</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Featured Public Projects</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                 {[
                   {
                     title: "Pixfocus",
@@ -118,4 +119,17 @@ export default function Home() {
       </div>
     </main>
   );
+}
+
+{
+  /* things to add
+    - make the site more responsive done
+   - cursor icon 
+   - skills section (maybe) 
+   - background music and mute icons bottom right corner that is fixed
+   - Bamboo silhouette
+
+  
+  
+*/
 }
