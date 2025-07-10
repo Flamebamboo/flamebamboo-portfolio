@@ -2,6 +2,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { FaLocationPin } from "react-icons/fa6";
 import { GridBackgroundDemo } from "@/components/GridBackground";
 import { Card } from "@/components/Card";
+import { MusicPlayer } from "./component/MusicPlayer";
 
 export default function Home() {
   return (
@@ -116,6 +117,7 @@ export default function Home() {
           </Card>
         </div>
       </div>
+      <MusicPlayer />
     </main>
   );
 }
@@ -124,9 +126,9 @@ export default function Home() {
   /* things to add
     - make the site more responsive done
    - cursor icon done
-   - skills section (maybe) show umm all the languages and frameworks I know?
-   - background music and mute icons bottom right corner that is fixed
-   - Bamboo silhouette
+   
+   - background music and mute icons bottom right corner that is fixed done
+
 
   
   
