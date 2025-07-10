@@ -17,18 +17,18 @@ export default function Home() {
         <div className="p-8 mt-24">
           <Card>
             <section className="space-y-6 mb-16">
-              <h2 className="text-4xl font-bold">Hey, I&apos;m Flamebamboo</h2>
-
-              <div className="flex items-center gap-4">
-                <FaLocationPin className="text-xl" />
-                <h3 className="text-2xl font-mono">Malaysia</h3>
+              <div className="flex items-center gap-4 bg-[#B1AB86] dark:bg-white w-max p-2 rounded-2xl shadow-md">
+                <FaLocationPin className="text-xl text-[#FEFAE0] dark:text-black" />
+                <h3 className="text-xl text-[#FEFAE0] dark:text-black font-light">Malaysia</h3>
               </div>
+
+              <h2 className="text-4xl font-bold font-Collager">Hey, I&apos;m Flamebamboo</h2>
 
               <p className="text-gray-600 dark:text-gray-400 text-lg max-w-2xl">full-stack developer, content creator & dream tech entrepenuer.</p>
             </section>
 
             <section>
-              <h3 className="text-2xl font-bold mb-6">Featured Projects</h3>
+              <h3 className="text-2xl font-bold mb-6">Featured Public Projects</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {[
                   {
