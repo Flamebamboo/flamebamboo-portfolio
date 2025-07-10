@@ -6,7 +6,7 @@ import { GridBackgroundDemo } from "@/components/GridBackground";
 import { Card } from "@/components/Card";
 import { MusicPlayer } from "./component/MusicPlayer";
 import { ShareButton } from "./component/ShareButton";
-
+import { Pet } from "./component/Pet";
 export default function Home() {
   return (
     <main className="min-h-screen relative">
@@ -121,6 +121,7 @@ export default function Home() {
               </div>
             </section>
           </Card>
+          <Pet />
         </div>
       </div>
       <MusicPlayer />

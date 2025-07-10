@@ -16,7 +16,7 @@ export function ShareButton() {
       sharing.current = true;
       try {
         await navigator.share(shareData);
-      } catch (e) {
+      } catch {
         // ignore user cancel or error
       } finally {
         sharing.current = false;
