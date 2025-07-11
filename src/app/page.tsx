@@ -24,14 +24,23 @@ export default function Home() {
         <div className="px-2 sm:px-4 md:px-8 py-4 md:py-8 mt-0 md:mt-12 w-full max-w-5xl mx-auto">
           <Card>
             <section className="space-y-6 mb-10 md:mb-16">
-              <div className="flex items-center gap-2 sm:gap-4 bg-[#B1AB86] dark:bg-gray-800 w-max p-2 md:p-3 rounded-2xl shadow-md">
-                <FaLocationPin className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white" />
-                <h3 className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white font-light">Malaysia</h3>
+              <div className="flex flex-col-reverse md:flex-row items-center md:items-start gap-6 md:gap-10">
+                <div className="flex flex-col justify-center items-start gap-3 w-full md:w-auto">
+                  <div className="flex items-center gap-3 bg-[#B1AB86] dark:bg-gray-800 w-max p-2 md:p-3 rounded-2xl shadow-md">
+                    <FaLocationPin className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white" />
+                    <h3 className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white font-light">Malaysia</h3>
+                  </div>
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-Collager leading-tight">Hey, I&apos;m Flamebamboo</h2>
+                  <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-xl">
+                    16y/o dropout, unemployed full-stack developer, content creator & dream tech entrepreneur.
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-xl">
+                    I post every single day on social media documenting my journey of becoming a tech entrepreneur, sharing my projects, and learning experiences. Just reach out
+                    anytime!
+                  </p>
+                </div>
+                <img src="/profilepicture.jpg" alt="Profile" className="w-32 sm:w-40 md:w-48 lg:w-56 aspect-square rounded-full border-2 border-white shadow object-cover" />
               </div>
-
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-Collager">Hey, I&apos;m Flamebamboo</h2>
-
-              <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-2xl">full-stack developer, content creator & dream tech entrepenuer.</p>
               <div className="flex flex-wrap items-center gap-3 sm:gap-4">
                 {/* Github button */}
                 <a
