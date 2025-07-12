@@ -129,6 +129,34 @@ export default function Home() {
                 ))}
               </div>
             </section>
+            {/* Featured Content Section */}
+            <section className="mt-10">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Featured Content</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {/* My Story (Shorts) */}
+                <a
+                  href="https://youtube.com/shorts/vxBS8Ilqdhg?si=vxz-Vtm23fHoHgft"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-800 hover:scale-[1.02] transition-transform"
+                >
+                  <img src="https://img.youtube.com/vi/vxBS8Ilqdhg/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
+                  <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">I never fitted in school.</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">My Story (Shorts)</p>
+                </a>
+                {/* Macropad Series */}
+                <a
+                  href="https://youtube.com/shorts/7tvncrJ1KWo?si=zmJieDxIqnWJPGlq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-800 hover:scale-[1.02] transition-transform"
+                >
+                  <img src="https://img.youtube.com/vi/7tvncrJ1KWo/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
+                  <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Building Custom Macropads</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Macropad Series</p>
+                </a>
+              </div>
+            </section>
           </Card>
           <Pet />
         </div>
@@ -138,6 +166,18 @@ export default function Home() {
   );
 }
 
+{
+  /* things to add
+    - make the site more responsive done
+   - cursor icon done
+   
+   - background music and mute icons bottom right corner that is fixed done
+
+
+  
+  
+*/
+}
 {
   /* things to add
     - make the site more responsive done
