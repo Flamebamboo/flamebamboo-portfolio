@@ -35,7 +35,7 @@ export default function Home() {
                     16y/o dropout, unemployed full-stack developer, content creator & dream tech entrepreneur.
                   </p>
                   <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-xl">
-                    I post every single day on social media documenting my journey of becoming a tech entrepreneur, sharing my projects, and learning experiences. Just reach out
+                    I post every single day on social media documenting my growth of becoming a tech entrepreneur, sharing my projects, and learning experiences. Just reach out
                     anytime!
                   </p>
                 </div>
@@ -154,6 +154,28 @@ export default function Home() {
                   <img src="https://img.youtube.com/vi/7tvncrJ1KWo/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
                   <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Building Custom Macropads</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">Macropad Series</p>
+                </a>
+                {/* PixFocus */}
+                <a
+                  href="https://youtube.com/shorts/2icRAhrTaVw?si=IX6SAglDwpvMEsjM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-800 hover:scale-[1.02] transition-transform"
+                >
+                  <img src="https://img.youtube.com/vi/2icRAhrTaVw/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
+                  <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Pixfocus</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">Lessons I learnt from building a gamified app</p>
+                </a>
+                {/* Islamic*/}
+                <a
+                  href=" https://youtube.com/shorts/wImAVUD6nEg?si=BEzK6EGGac2QfCGt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-800 hover:scale-[1.02] transition-transform"
+                >
+                  <img src="https://img.youtube.com/vi/wImAVUD6nEg/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
+                  <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Islamic</h4>
+                  <p className="text-gray-600 dark:text-gray-400 text-sm">These are the Quran verses that motivates me</p>
                 </a>
               </div>
             </section>
