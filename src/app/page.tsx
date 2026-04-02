@@ -177,6 +177,23 @@ export default function Home() {
                 </a> */}
               </div>
             </section>
+
+            {/* Featured Full Videos Section */}
+            <section className="mt-10">
+              <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Event Organization</h3>
+              <div className="grid grid-cols-1 gap-4">
+                <a
+                  href="https://www.youtube.com/watch?v=I9zik7gCK7g&t=1s"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gradient-to-br from-red-50 to-red-100 dark:from-gray-900 dark:to-gray-800 rounded-lg p-6 border-2 border-red-300 dark:border-red-700 hover:scale-[1.02] transition-transform shadow-lg"
+                >
+                  <img src="https://img.youtube.com/vi/I9zik7gCK7g/hqdefault.jpg" alt="Event Organization" className="w-full aspect-video object-cover rounded-lg shadow-md mb-4" />
+                  <h4 className="font-semibold text-lg mb-2 text-gray-900 dark:text-white">Organising an Event</h4>
+                  <p className="text-gray-700 dark:text-gray-300 text-sm">Full video documenting the event</p>
+                </a>
+              </div>
+            </section>
           </Card>
           <Pet />
         </div>
