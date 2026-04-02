@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="absolute inset-0 z-10">
         <nav className="px-4 sm:px-6 md:px-8 py-4 md:py-8 w-full max-w-7xl mx-auto flex justify-between items-center">
-          <h1 className="font-mono text-lg sm:text-xl md:text-2xl">flamebamboo.xyz</h1>
+          <h1 className="font-mono text-lg sm:text-xl md:text-2xl">athmarasyraf.xyz</h1>
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <ShareButton />
@@ -30,10 +30,8 @@ export default function Home() {
                     <FaLocationPin className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white" />
                     <h3 className="text-lg sm:text-xl text-[#FEFAE0] dark:text-white font-light">Malaysia</h3>
                   </div>
-                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-Collager leading-tight">Hey, I&apos;m Flamebamboo</h2>
-                  <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-xl">
-                    16y/o dropout, unemployed full-stack developer, content creator & dream tech entrepreneur.
-                  </p>
+                  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-Collager leading-tight">Hey, I&apos;m Asyraf aka Flamebamboo</h2>
+                  <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-xl">17 y/o who kept stepping away from the traditional path to chase bigger ideas</p>
                   <p className="text-gray-600 dark:text-gray-400 text-base sm:text-lg max-w-xl">
                     I post every single day on social media documenting my growth of becoming a tech entrepreneur, sharing my projects, and learning experiences. Just reach out
                     anytime!
@@ -146,17 +144,17 @@ export default function Home() {
                 </a>
                 {/* Macropad Series */}
                 <a
-                  href="https://youtube.com/shorts/7tvncrJ1KWo?si=zmJieDxIqnWJPGlq"
+                  href="https://www.youtube.com/shorts/YL3zJlggz9U"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gray-50 dark:bg-gray-900 rounded-lg p-4 border border-gray-200 dark:border-gray-800 hover:scale-[1.02] transition-transform"
                 >
-                  <img src="https://img.youtube.com/vi/7tvncrJ1KWo/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
+                  <img src="https://img.youtube.com/vi/YL3zJlggz9U/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
                   <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Building Custom Macropads</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">Macropad Series</p>
                 </a>
                 {/* PixFocus */}
-                <a
+                {/* <a
                   href="https://youtube.com/shorts/2icRAhrTaVw?si=IX6SAglDwpvMEsjM"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -165,9 +163,9 @@ export default function Home() {
                   <img src="https://img.youtube.com/vi/2icRAhrTaVw/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
                   <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Pixfocus</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">Lessons I learnt from building a gamified app</p>
-                </a>
+                </a> */}
                 {/* Islamic*/}
-                <a
+                {/* <a
                   href=" https://youtube.com/shorts/wImAVUD6nEg?si=BEzK6EGGac2QfCGt"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -176,7 +174,7 @@ export default function Home() {
                   <img src="https://img.youtube.com/vi/wImAVUD6nEg/hqdefault.jpg" alt="Featured Video" className="w-full aspect-video object-cover rounded-lg shadow mb-3" />
                   <h4 className="font-semibold text-base mb-1 text-gray-900 dark:text-white">Islamic</h4>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">These are the Quran verses that motivates me</p>
-                </a>
+                </a> */}
               </div>
             </section>
           </Card>
