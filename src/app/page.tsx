@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { FaLocationPin } from "react-icons/fa6";
+import { FaLocationPin, FaWhatsapp } from "react-icons/fa6";
 import { GridBackgroundDemo } from "@/components/GridBackground";
 import { Card } from "@/components/Card";
 import { MusicPlayer } from "./component/MusicPlayer";
@@ -40,6 +40,16 @@ export default function Home() {
                 <img src="/profilepicture.jpg" alt="Profile" className="w-32 sm:w-40 md:w-48 lg:w-56 aspect-square rounded-full border-2 border-white shadow object-cover" />
               </div>
               <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+                {/* WhatsApp contact button */}
+                <a
+                  href="https://wa.me/60142008368"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-3 py-2 rounded-lg border-t-2 border-l-2 border-r-4 border-b-4 border-black bg-green-700 hover:bg-green-800 text-white transition-colors shadow focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-700"
+                >
+                  <FaWhatsapp className="w-6 h-6 mr-2 shrink-0" aria-hidden="true" />
+                  Contact me on WhatsApp
+                </a>
                 {/* Github button */}
                 <a
                   href="https://github.com/flamebamboo"
