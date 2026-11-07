@@ -208,6 +208,17 @@ export default function Home() {
           <Pet />
         </div>
       </div>
+      <a
+        href="https://wa.me/60142008368"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact me on WhatsApp"
+        title="Contact me on WhatsApp"
+        className="fixed bottom-[calc(6rem+env(safe-area-inset-bottom))] right-6 z-[110] inline-flex h-14 w-14 sm:w-auto items-center justify-center gap-2 sm:px-4 rounded-full border-4 border-black bg-green-700 hover:bg-green-800 text-white shadow-lg transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-green-700"
+      >
+        <FaWhatsapp className="h-7 w-7 shrink-0" aria-hidden="true" />
+        <span className="hidden sm:inline font-semibold">Contact me on WhatsApp</span>
+      </a>
       <MusicPlayer />
     </main>
   );
